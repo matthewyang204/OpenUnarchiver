@@ -186,7 +186,7 @@ preservePermissions:(BOOL)preservepermissions
 
 	// Don't bother if we're sandboxed, as Apple refuses to allow
 	// entitlements for this.
-	if(getenv("APP_SANDBOX_CONTAINER_ID")) return;
+	// if(getenv("APP_SANDBOX_CONTAINER_ID")) return;
 
 	const char *eventformat =
 	"'----': 'obj '{ "         // Direct object is the file comment we want to modify

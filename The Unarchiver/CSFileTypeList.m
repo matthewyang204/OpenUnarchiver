@@ -53,6 +53,10 @@
 
 -(void)disableOnAppStore
 {
+    // Disable because we are not distributing this, ever, on the app store
+    return;
+    
+    // Rest of function if you want it
 	if(!getenv("APP_SANDBOX_CONTAINER_ID")) return;
 	if(NSFoundationVersionNumber<1057) return;
 

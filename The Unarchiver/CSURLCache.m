@@ -9,7 +9,7 @@ static BOOL HasPathPrefix(NSString *path,NSString *prefix);
 
 +(CSURLCache *)defaultCache
 {
-	if(!getenv("APP_SANDBOX_CONTAINER_ID")) return nil; // Don't bother doing anything unless sandboxed.
+	// if(!getenv("APP_SANDBOX_CONTAINER_ID")) return nil; // Don't bother doing anything unless sandboxed.
 
 	static CSURLCache *defaultcache=nil;
 	if(!defaultcache) defaultcache=[CSURLCache new];
