@@ -254,10 +254,14 @@
 
 			if(extid==1)
 			{
-				if(uncompsize==0xffffffff) uncompsize=[fh readUInt64LE];
-				if(compsize==0xffffffff) compsize=[fh readUInt64LE];
-				if(locheaderoffset==0xffffffff) locheaderoffset=[fh readUInt64LE];
-				if(startdisk==0xffff) startdisk=[fh readUInt32LE];
+				off_t uncompsize64=[fh readUInt64LE];
+				off_t compsize64=[fh readUInt64LE];
+				off_t locheaderoffset64=[fh readUInt64LE];
+				int startdisk64=[fh readUInt32LE];
+				if(uncompsize==0xffffffff) uncompsize=uncompsize64;
+				if(compsize==0xffffffff) compsize=compsize64;
+				if(locheaderoffset==0xffffffff) locheaderoffset=locheaderoffset64;
+				if(startdisk==0xffff) startdisk=startdisk64;
 				break;
 			}
 
@@ -324,6 +328,17 @@
 		[pool release];
 	}
 }
+
+-(off_t)offsetForVolume:(int)disk offset:(off_t)offset
+{
+	NSArray *sizes=[self volumeSizes];
+	NSInteger count=[sizes count];
+
+	for(NSInteger i=0;i<count && i<disk;i++) offset+=[[sizes objectAtIndex:i] longLongValue];
+
+	return offset;
+}
+
 
 
 
