@@ -131,12 +131,12 @@ static BOOL IsPathWritable(NSString *path);
 		if(array && [array count] && [[array objectAtIndex:0] isEqual:@"en"])
 		{
 			NSAlert *panel=[NSAlert alertWithMessageText:
-			NSLocalizedString(@"Where should The Unarchiver extract archives?",@"Title for nagging alert on first startup")
+			NSLocalizedString(@"Where should The OpenUnarchiver extract archives?",@"Title for nagging alert on first startup")
 			defaultButton:NSLocalizedString(@"Extract to the same folder",@"Button to extract to the same folder in nagging alert on first startup")
 			alternateButton:NSLocalizedString(@"Ask every time",@"Button to ask every time in nagging alert on first startup")
 			otherButton:nil
 			informativeTextWithFormat:NSLocalizedString(
-			@"Would you like The Unarchiver to extract archives to the same folder as the "
+			@"Would you like The OpenUnarchiver to extract archives to the same folder as the "
 			@"archive file, or would you prefer to be asked for a destination folder for "
 			@"every individual archive?",
 			@"Content of nagging alert on first startup")];
@@ -383,10 +383,10 @@ static BOOL IsPathWritable(NSString *path);
 				NSTextField *text=[[[NSTextField alloc] initWithFrame:NSMakeRect(0,0,100,100)] autorelease];
 
 				[text setStringValue:NSLocalizedString(
-				@"The Unarchiver does not have permission to write to this folder. "
-				@"To allow The Unarchiver to write to this folder, simply click "
+				@"The OpenUnarchiver does not have permission to write to this folder. "
+				@"To allow The OpenUnarchiver to write to this folder, simply click "
 				@"\"Extract\". This permission will be remembered for this folder, and "
-				@"The Unarchiver will not need to ask for it again.",
+				@"The OpenUnarchiver will not need to ask for it again.",
 				@"Informative text in the file panel shown when trying to gain sandbox access")];
 				[text setBezeled:NO];
 				[text setDrawsBackground:NO];
@@ -513,11 +513,11 @@ static BOOL IsPathWritable(NSString *path);
 			NSTextField *text=[[[NSTextField alloc] initWithFrame:NSMakeRect(0,0,100,100)] autorelease];
 
 			[text setStringValue:NSLocalizedString(
-			@"The Unarchiver needs to search for more parts of this archive, "
+			@"The OpenUnarchiver needs to search for more parts of this archive, "
 			@"but does not have permission to read the folder. "
-			@"To allow The Unarchiver to search in "
+			@"To allow The OpenUnarchiver to search in "
 			@"this folder, simply click \"Search\". This permission will be "
-			@"remembered for this folder, and The Unarchiver will not need to ask for it again.",
+			@"remembered for this folder, and The OpenUnarchiver will not need to ask for it again.",
 			@"Informative text in the file panel shown when trying to gain sandbox access for multi-part archives")];
 			[text setBezeled:NO];
 			[text setDrawsBackground:NO];

@@ -1,4 +1,4 @@
-﻿/* Status text for queued multi-part archives */
+/* Status text for queued multi-part archives */
 "%@ (+%d more)" = "%1$@ (+%2$d más)";
 
 /* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
@@ -31,7 +31,7 @@
 /* Panel title when choosing archives to extract */
 "Select files to unarchive" = "Seleccione los ficheros para extraer";
 
-/* Error message for files not extractable by The Unarchiver */
+/* Error message for files not extractable by The OpenUnarchiver */
 "The contents of the file \"%@\" can not be extracted with this program." = "Los contenidos del fichero \"%@\" no se pueden extraer con este programa.";
 
 /* Error message when encountering an error while extracting entries */
@@ -47,10 +47,10 @@
 "You need to supply a password to open the archive \"%@\"." = "Necesita escribir una contraseña para abrir el archivo \"%@\".";
 
 /* Title for nagging alert on first startup */
-"Where should The Unarchiver extract archives?" ="¿Dónde debería The Unarchiver extraer los archivos?";
+"Where should The OpenUnarchiver extract archives?" ="¿Dónde debería The OpenUnarchiver extraer los archivos?";
 
 /* Content of nagging alert on first startup */
-"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "¿Te gustaría que The Unarchiver extraiga los archivos en la misma carpeta que el archivo original, o prefieres que te pregunte el destino para cada archivo individualmente?";
+"Would you like The OpenUnarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "¿Te gustaría que The OpenUnarchiver extraiga los archivos en la misma carpeta que el archivo original, o prefieres que te pregunte el destino para cada archivo individualmente?";
 
 /* Button to ask every time in nagging alert on first startup */
 "Ask every time" = "Preguntar cada vez";
@@ -59,10 +59,10 @@
 "Extract to the same folder" = "Extraer en la carpeta original";
 
 /* Informative text in the file panel shown when trying to gain sandbox access */
-"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver no puede escribir en esta carpeta. El sandbox de Mac OS X puede estar bloqueando el acceso. Para que el sandbox permita a  The Unarchiver escribir en esta carpeta, sencillamente haz click en \"Extraer\".Este permiso será recordado y The Unarchiver no necesitará preguntarte de nuevo.";
+"The OpenUnarchiver does not have permission to write to this folder. To allow The OpenUnarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver no puede escribir en esta carpeta. El sandbox de Mac OS X puede estar bloqueando el acceso. Para que el sandbox permita a  The OpenUnarchiver escribir en esta carpeta, sencillamente haz click en \"Extraer\".Este permiso será recordado y The OpenUnarchiver no necesitará preguntarte de nuevo.";
 
 /* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
-"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver necesita buscar más partes de este archivo, pero el sandbox de Mac OS X está bloqueando el acceso a la carpeta. Para pedir al sandbox que permita a The Unarchiver buscar en esta carpeta, simplemente haz click en \"Buscar\". El permiso será recordado y The Unarchiver no necesitará volver a preguntar.";
+"The OpenUnarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The OpenUnarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver necesita buscar más partes de este archivo, pero el sandbox de Mac OS X está bloqueando el acceso a la carpeta. Para pedir al sandbox que permita a The OpenUnarchiver buscar en esta carpeta, simplemente haz click en \"Buscar\". El permiso será recordado y The OpenUnarchiver no necesitará volver a preguntar.";
 
 /* Panel OK button title when searching for more archive parts */
 "Search" = "Buscar";

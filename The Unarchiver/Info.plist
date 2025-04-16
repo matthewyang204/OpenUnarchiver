@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -1797,8 +1799,6 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>3.10</string>
-	<key>CFBundleDisplayName</key>
-	<string></string>
 	<key>CFBundleSignature</key>
 	<string>TUnA</string>
 	<key>CFBundleVersion</key>
@@ -1819,12 +1819,12 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>The Unarchiver/Unarchive To Current Folder</string>
+				<string>The OpenUnarchiver/Unarchive To Current Folder</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>unarchiveToCurrentFolderWithPasteboard</string>
 			<key>NSPortName</key>
-			<string>The Unarchiver</string>
+			<string>The OpenUnarchiver</string>
 			<key>NSSendTypes</key>
 			<array>
 				<string>NSFilenamesPboardType</string>
@@ -1834,12 +1834,12 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>The Unarchiver/Unarchive To Desktop</string>
+				<string>The OpenUnarchiver/Unarchive To Desktop</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>unarchiveToDesktopWithPasteboard</string>
 			<key>NSPortName</key>
-			<string>The Unarchiver</string>
+			<string>The OpenUnarchiver</string>
 			<key>NSSendTypes</key>
 			<array>
 				<string>NSFilenamesPboardType</string>
@@ -1849,12 +1849,12 @@
 			<key>NSMenuItem</key>
 			<dict>
 				<key>default</key>
-				<string>The Unarchiver/Unarchive To...</string>
+				<string>The OpenUnarchiver/Unarchive To...</string>
 			</dict>
 			<key>NSMessage</key>
 			<string>unarchiveToWithPasteboard</string>
 			<key>NSPortName</key>
-			<string>The Unarchiver</string>
+			<string>The OpenUnarchiver</string>
 			<key>NSSendTypes</key>
 			<array>
 				<string>NSFilenamesPboardType</string>

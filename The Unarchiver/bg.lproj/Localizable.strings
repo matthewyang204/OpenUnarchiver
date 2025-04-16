@@ -31,7 +31,7 @@
 /* Panel title when choosing archives to extract */
 "Select files to unarchive" = "Избор на файлове за разархивиране";
 
-/* Error message for files not extractable by The Unarchiver */
+/* Error message for files not extractable by The OpenUnarchiver */
 "The contents of the file \"%@\" can not be extracted with this program." = "Програмата не е в състояние да извлече съдържанието на файл „%@“.";
 
 /* Error message when encountering an error while extracting entries */
@@ -47,10 +47,10 @@
 "You need to supply a password to open the archive \"%@\"." = "Предложете парола за отваряне на архив „%@“.";
 
 /* Title for nagging alert on first startup */
-"Where should The Unarchiver extract archives?" = "Къде Разархиваторът ще извлича архивите?";
+"Where should The OpenUnarchiver extract archives?" = "Къде Разархиваторът ще извлича архивите?";
 
 /* Content of nagging alert on first startup */
-"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Разархиваторът ще извлича ли архивите в същата папка като физическия файл или предпочитате отделно запитване за целева папка за всеки от архивите?";
+"Would you like The OpenUnarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Разархиваторът ще извлича ли архивите в същата папка като физическия файл или предпочитате отделно запитване за целева папка за всеки от архивите?";
 
 /* Button to ask every time in nagging alert on first startup */
 "Ask every time" = "Питай всеки път";
@@ -59,10 +59,10 @@
 "Extract to the same folder" = "Извлечи в същата папка";
 
 /* Informative text in the file panel shown when trying to gain sandbox access */
-"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "Разархиваторът не може да пише в папката. Вероятно достъпът до нея се блокира от пясъчника в Mac OS X. Натиснете „Извлечи“, за да поискате позволение от пясъчника. Позволението ще бъде запомнено и Разархиваторът няма да ви пита отново.";
+"The OpenUnarchiver does not have permission to write to this folder. To allow The OpenUnarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "Разархиваторът не може да пише в папката. Вероятно достъпът до нея се блокира от пясъчника в Mac OS X. Натиснете „Извлечи“, за да поискате позволение от пясъчника. Позволението ще бъде запомнено и Разархиваторът няма да ви пита отново.";
 
 /* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
-"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "Разархиваторът трябва да намери още части на архива, но достъпът до папката се блокира от пясъчника в Mac OS X. Натиснете „Търси“, за да поискате позволение от пясъчника. Позволението ще бъде запомнено и Разархиваторът няма да ви пита отново.";
+"The OpenUnarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The OpenUnarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "Разархиваторът трябва да намери още части на архива, но достъпът до папката се блокира от пясъчника в Mac OS X. Натиснете „Търси“, за да поискате позволение от пясъчника. Позволението ще бъде запомнено и Разархиваторът няма да ви пита отново.";
 
 /* Panel OK button title when searching for more archive parts */
 "Search" = "Търси";

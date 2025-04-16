@@ -82,7 +82,7 @@
 						<object class="NSTextFieldCell" key="NSCell" id="1012897294">
 							<int key="NSCellFlags">67108864</int>
 							<int key="NSCellFlags2">272629760</int>
-							<string key="NSContents">The Unarchiver heeft geen bevoegdheid om in deze map te schrijven. Het archief kan hier niet worden uitgepakt.</string>
+							<string key="NSContents">The OpenUnarchiver heeft geen bevoegdheid om in deze map te schrijven. Het archief kan hier niet worden uitgepakt.</string>
 							<object class="NSFont" key="NSSupport" id="26">
 								<bool key="IBIsSystemFont">YES</bool>
 								<double key="NSSize">11</double>

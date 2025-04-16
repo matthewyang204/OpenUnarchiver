@@ -1,4 +1,4 @@
-﻿/* Status text for queued multi-part archives */
+/* Status text for queued multi-part archives */
 "%@ (+%d more)" = "%1$@ (+%2$d igjen)";
 
 /* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
@@ -31,7 +31,7 @@
 /* Panel title when choosing archives to extract */
 "Select files to unarchive" = "Velg filer for utpakking";
 
-/* Error message for files not extractable by The Unarchiver */
+/* Error message for files not extractable by The OpenUnarchiver */
 "The contents of the file \"%@\" can not be extracted with this program." = "Innholdet av filen \"%@\" kan ikke pakkes ut med dette programmet.";
 
 /* Error message when encountering an error while extracting entries */
@@ -47,10 +47,10 @@
 "You need to supply a password to open the archive \"%@\"." = "Du må angi passordet for å kunne åpne arkivfilen \"%@\".";
 
 /* Title for nagging alert on first startup */
-"Where should The Unarchiver extract archives?" = "Hvor vil du at The Unarchiver skal pakke ut arkivfiler?";
+"Where should The OpenUnarchiver extract archives?" = "Hvor vil du at The OpenUnarchiver skal pakke ut arkivfiler?";
 
 /* Content of nagging alert on first startup */
-"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Vil du at The Unarchiver skal pakke ut arkivfiler til samme mappe som arkivfilen er lagret i, eller foretrekker du å bli spurt om en målkatalog for hver arkivfil?";
+"Would you like The OpenUnarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Vil du at The OpenUnarchiver skal pakke ut arkivfiler til samme mappe som arkivfilen er lagret i, eller foretrekker du å bli spurt om en målkatalog for hver arkivfil?";
 
 /* Button to ask every time in nagging alert on first startup */
 "Ask every time" = "Spør hver gang";
@@ -59,10 +59,10 @@
 "Extract to the same folder" = "Pakk ut til samme mappe";
 
 /* Informative text in the file panel shown when trying to gain sandbox access */
-"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver kan ikke skrive til denne mappen. Det kan være Mac OS X sandkassen som blokkerer tilgang til den. For å gi tillatelse for The Unarchiver til å skrive til mappen, klikk på \"Pakk ut\". Denne tillatelsen vil bli husket slik at The Unarchiver ikke trenger å be om den igjen.";
+"The OpenUnarchiver does not have permission to write to this folder. To allow The OpenUnarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver kan ikke skrive til denne mappen. Det kan være Mac OS X sandkassen som blokkerer tilgang til den. For å gi tillatelse for The OpenUnarchiver til å skrive til mappen, klikk på \"Pakk ut\". Denne tillatelsen vil bli husket slik at The OpenUnarchiver ikke trenger å be om den igjen.";
 
 /* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
-"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver har behov for å søke etter flere deler av dette arkivet, men Mac OS X sandkassen blokkerer tilgang til mappen. For at sandkassen skal tillate The Unarchiver å søke i mappen trenger du bare klikke på \"Søk\". Denne tillatelsen vil bli husket slik at The Unarchiver ikke trenger å spørre om den igjen senere.";
+"The OpenUnarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The OpenUnarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver har behov for å søke etter flere deler av dette arkivet, men Mac OS X sandkassen blokkerer tilgang til mappen. For at sandkassen skal tillate The OpenUnarchiver å søke i mappen trenger du bare klikke på \"Søk\". Denne tillatelsen vil bli husket slik at The OpenUnarchiver ikke trenger å spørre om den igjen senere.";
 
 /* Panel OK button title when searching for more archive parts */
 "Search" = "Søk";

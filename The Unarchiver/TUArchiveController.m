@@ -239,7 +239,7 @@ NSStringEncoding globalpasswordencoding=0;
 	if(!unarchiver)
 	{
 		[view displayOpenError:[NSString stringWithFormat:
-		NSLocalizedString(@"The contents of the file \"%@\" can not be extracted with this program.",@"Error message for files not extractable by The Unarchiver"),
+		NSLocalizedString(@"The contents of the file \"%@\" can not be extracted with this program.",@"Error message for files not extractable by The OpenUnarchiver"),
 		[archivename lastPathComponent]]];
 
 		[self performSelectorOnMainThread:@selector(extractFailed) withObject:nil waitUntilDone:NO];

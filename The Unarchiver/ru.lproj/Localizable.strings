@@ -1,4 +1,4 @@
-﻿/* Status text for queued multi-part archives */
+/* Status text for queued multi-part archives */
 "%@ (+%d more)" = "%1$@ (еще +%2$d)";
 
 /* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
@@ -31,7 +31,7 @@
 /* Panel title when choosing archives to extract */
 "Select files to unarchive" = "Выберите файлы для распаковки";
 
-/* Error message for files not extractable by The Unarchiver */
+/* Error message for files not extractable by The OpenUnarchiver */
 "The contents of the file \"%@\" can not be extracted with this program." = "Эта программа не может распаковать «%@».";
 
 /* Error message when encountering an error while extracting entries */
@@ -47,10 +47,10 @@
 "You need to supply a password to open the archive \"%@\"." = "Для распаковки архива «%@» следует указать пароль.";
 
 /* Title for nagging alert on first startup */
-"Where should The Unarchiver extract archives?" = "Куда The Unarchiver должен распаковывать архивы?";
+"Where should The OpenUnarchiver extract archives?" = "Куда The OpenUnarchiver должен распаковывать архивы?";
 
 /* Content of nagging alert on first startup */
-"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Должен ли The Unarchiver распаковывать архивы в ту же папку, где находится исходный архив, либо запрашивать папку для каждого архива?";
+"Would you like The OpenUnarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Должен ли The OpenUnarchiver распаковывать архивы в ту же папку, где находится исходный архив, либо запрашивать папку для каждого архива?";
 
 /* Button to ask every time in nagging alert on first startup */
 "Ask every time" = "Запрашивать каждый раз";
@@ -59,10 +59,10 @@
 "Extract to the same folder" = "Извлекать в ту же папку";
 
 /* Informative text in the file panel shown when trying to gain sandbox access */
-"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver не может записывать в эту папку. Возможно, доступ блокирует Mac OS X sandbox. Чтобы позволить The Unarchiver записывать в эту папку, просто щелкните «Extract». Это будет запомнено, и The Unarchiver больше не будет его запрашивать.";
+"The OpenUnarchiver does not have permission to write to this folder. To allow The OpenUnarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver не может записывать в эту папку. Возможно, доступ блокирует Mac OS X sandbox. Чтобы позволить The OpenUnarchiver записывать в эту папку, просто щелкните «Extract». Это будет запомнено, и The OpenUnarchiver больше не будет его запрашивать.";
 
 /* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
-"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver необходимо найти остальные части архива, но Mac OS X sandbox заблокировал доступ к папке. Чтобы разрешить доступ The Unarchiver к поиску в данной папке, просто щелкните «Искать». Права доступа будут сохранены и The Unarchiver больше не будет их запрашивать.";
+"The OpenUnarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The OpenUnarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver необходимо найти остальные части архива, но Mac OS X sandbox заблокировал доступ к папке. Чтобы разрешить доступ The OpenUnarchiver к поиску в данной папке, просто щелкните «Искать». Права доступа будут сохранены и The OpenUnarchiver больше не будет их запрашивать.";
 
 /* Panel OK button title when searching for more archive parts */
 "Search" = "Искать";

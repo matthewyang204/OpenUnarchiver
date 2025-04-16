@@ -12,7 +12,7 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application"/>
-        <window title="The Unarchiver" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" wantsToBeColor="NO" visibleAtLaunch="NO" frameAutosaveName="mainWindow" animationBehavior="default" id="21" userLabel="MainWindow">
+        <window title="The OpenUnarchiver" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" wantsToBeColor="NO" visibleAtLaunch="NO" frameAutosaveName="mainWindow" animationBehavior="default" id="21" userLabel="MainWindow">
             <windowStyleMask key="styleMask" titled="YES" miniaturizable="YES" resizable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" topStrut="YES"/>
             <rect key="contentRect" x="234" y="258" width="458" height="292"/>
@@ -30,10 +30,10 @@
         </window>
         <menu title="MainMenu" systemMenu="main" id="29" userLabel="MainMenu">
             <items>
-                <menuItem title="The Unarchiver" id="56">
-                    <menu key="submenu" title="The Unarchiver" systemMenu="apple" id="57">
+                <menuItem title="The OpenUnarchiver" id="56">
+                    <menu key="submenu" title="The OpenUnarchiver" systemMenu="apple" id="57">
                         <items>
-                            <menuItem title="About The Unarchiver" id="58">
+                            <menuItem title="About The OpenUnarchiver" id="58">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-2" id="142"/>
@@ -56,7 +56,7 @@
                             <menuItem isSeparatorItem="YES" id="144">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Hide The Unarchiver" keyEquivalent="h" id="134">
+                            <menuItem title="Hide The OpenUnarchiver" keyEquivalent="h" id="134">
                                 <connections>
                                     <action selector="hide:" target="-2" id="152"/>
                                 </connections>
@@ -75,7 +75,7 @@
                             <menuItem isSeparatorItem="YES" id="149">
                                 <modifierMask key="keyEquivalentModifierMask" command="YES"/>
                             </menuItem>
-                            <menuItem title="Quit The Unarchiver" keyEquivalent="q" id="136">
+                            <menuItem title="Quit The OpenUnarchiver" keyEquivalent="q" id="136">
                                 <connections>
                                     <action selector="terminate:" target="-2" id="139"/>
                                 </connections>

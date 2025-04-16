@@ -60,7 +60,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{234, 258}, {458, 292}}</string>
 				<int key="NSWTFlags">1881669632</int>
-				<string key="NSWindowTitle">The Unarchiver</string>
+				<string key="NSWindowTitle">The OpenUnarchiver</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<object class="NSMutableString" key="NSViewClass">
 					<characters key="NS.bytes">View</characters>
@@ -96,7 +96,7 @@
 				<array class="NSMutableArray" key="NSMenuItems">
 					<object class="NSMenuItem" id="683162779">
 						<reference key="NSMenu" ref="20280400"/>
-						<string key="NSTitle">The Unarchiver</string>
+						<string key="NSTitle">The OpenUnarchiver</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -111,11 +111,11 @@
 						<string key="NSAction">submenuAction:</string>
 						<reference key="NSTarget" ref="237102225"/>
 						<object class="NSMenu" key="NSSubmenu" id="237102225">
-							<string key="NSTitle">The Unarchiver</string>
+							<string key="NSTitle">The OpenUnarchiver</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="267141903">
 									<reference key="NSMenu" ref="237102225"/>
-									<string key="NSTitle">Acerca de The Unarchiver</string>
+									<string key="NSTitle">Acerca de The OpenUnarchiver</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<reference key="NSOnImage" ref="1019969751"/>
@@ -181,7 +181,7 @@
 								</object>
 								<object class="NSMenuItem" id="368435532">
 									<reference key="NSMenu" ref="237102225"/>
-									<string key="NSTitle">Ocultar The Unarchiver</string>
+									<string key="NSTitle">Ocultar The OpenUnarchiver</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -219,7 +219,7 @@
 								</object>
 								<object class="NSMenuItem" id="216002892">
 									<reference key="NSMenu" ref="237102225"/>
-									<string key="NSTitle">Salir de The Unarchiver</string>
+									<string key="NSTitle">Salir de The OpenUnarchiver</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -841,7 +841,7 @@
 												<object class="NSTextFieldCell" key="NSCell" id="923188610">
 													<int key="NSCellFlags">67108928</int>
 													<int key="NSCellFlags2">272631808</int>
-													<string key="NSContents">Abrir estos tipos de archivo con The Unarchiver:</string>
+													<string key="NSContents">Abrir estos tipos de archivo con The OpenUnarchiver:</string>
 													<reference key="NSSupport" ref="170887875"/>
 													<reference key="NSControlView" ref="370190224"/>
 													<object class="NSColor" key="NSBackgroundColor" id="925600687">
@@ -1899,7 +1899,7 @@ y7bMNcy1zTXNtc42zrbPN8+40DnQutE80b7SP9LB00TTxtRJ1MvVTtXR1lXW2Ndc1+DYZNjo2WzZ8dp2
 							<object class="NSButtonCell" key="NSCell" id="146582753">
 								<int key="NSCellFlags">-2080374784</int>
 								<int key="NSCellFlags2">134348800</int>
-								<string key="NSContents">Apoya a The Unarchiver, ¡haz una donación en la página web!</string>
+								<string key="NSContents">Apoya a The OpenUnarchiver, ¡haz una donación en la página web!</string>
 								<object class="NSFont" key="NSSupport">
 									<bool key="IBIsSystemFont">YES</bool>
 									<double key="NSSize">10</double>

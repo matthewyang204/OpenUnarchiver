@@ -133,7 +133,7 @@
 		
 	</suite>
 	
-	<suite name="The Unarchiver Suite" code="TUSc" description="Commands and definitions for unarchaving tasks">
+	<suite name="The OpenUnarchiver Suite" code="TUSc" description="Commands and definitions for unarchaving tasks">
 		<enumeration name="File Destination" code="TUFD" inline="2"
 			description="Where to unarchive">
 			<enumerator name="Original" code="Orig" description="The same folder as the archive"/>

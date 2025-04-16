@@ -1,4 +1,4 @@
-This program, "The Unarchiver", its accompanying libraries, "XADMaster"
+This program, "The OpenUnarchiver", its accompanying libraries, "XADMaster"
 and "UniversalDetector", and the various smaller utility programs, such
 as "unar" and "lsar", are distributed under the GNU Lesser General
 Public License as published by the Free Software Foundation; either

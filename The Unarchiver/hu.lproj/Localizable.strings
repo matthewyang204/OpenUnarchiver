@@ -1,4 +1,4 @@
-﻿/* Status text for queued multi-part archives */
+/* Status text for queued multi-part archives */
 "%@ (+%d more)" = "%1$@ (+%2$d további)";
 
 /* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
@@ -31,7 +31,7 @@
 /* Panel title when choosing archives to extract */
 "Select files to unarchive" = "Kicsomagolandó fájlok kiválasztása";
 
-/* Error message for files not extractable by The Unarchiver */
+/* Error message for files not extractable by The OpenUnarchiver */
 "The contents of the file \"%@\" can not be extracted with this program." = "A program nem tudja kibontani a következő fájlok tartalmát: \"%@\"";
 
 /* Error message when encountering an error while extracting entries */
@@ -47,10 +47,10 @@
 "You need to supply a password to open the archive \"%@\"." = "Be kell írnia a jelszót a következő archívum megnyitásához: \"%@\".";
 
 /* Title for nagging alert on first startup */
-"Where should The Unarchiver extract archives?" = "Hova bontsa ki az Unarchiver az archívumokat?";
+"Where should The OpenUnarchiver extract archives?" = "Hova bontsa ki az Unarchiver az archívumokat?";
 
 /* Content of nagging alert on first startup */
-"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Szeretné, hogy az Unarchiver mindig az őket tartalmazó mappába csomagolja ki az archívumokat, vagy minden kicsomagolás alkalmával kérdezze meg a célmappát?";
+"Would you like The OpenUnarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Szeretné, hogy az Unarchiver mindig az őket tartalmazó mappába csomagolja ki az archívumokat, vagy minden kicsomagolás alkalmával kérdezze meg a célmappát?";
 
 /* Button to ask every time in nagging alert on first startup */
 "Ask every time" = "Kérdezze meg minden alkalommal";
@@ -59,10 +59,10 @@
 "Extract to the same folder" = "Kibontás ugyanabba a mappába";
 
 /* Informative text in the file panel shown when trying to gain sandbox access */
-"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "Az Unarhiver-nek nincs jogosultsága írni ezt a mappát. A művelet engedélyezéséhez kattintson a \"Kibontás\"-ra. Az Unarchiver ezentúl jogosult lesz írni ezt a mappát külön engedélykérés nélkül";
+"The OpenUnarchiver does not have permission to write to this folder. To allow The OpenUnarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "Az Unarhiver-nek nincs jogosultsága írni ezt a mappát. A művelet engedélyezéséhez kattintson a \"Kibontás\"-ra. Az Unarchiver ezentúl jogosult lesz írni ezt a mappát külön engedélykérés nélkül";
 
 /* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
-"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "Az Unarchiver-nek meg kell keresnie az archívum további részeit, de nincs jogosultsága olvasni a mappát. A művelet engedélyezéséhez kattintson a \"Keresés\"-re. Az Unarchiver ezentúl jogosult lesz olvasni ezt a mappátkülön engedélykérés nélkül.";
+"The OpenUnarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The OpenUnarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "Az Unarchiver-nek meg kell keresnie az archívum további részeit, de nincs jogosultsága olvasni a mappát. A művelet engedélyezéséhez kattintson a \"Keresés\"-re. Az Unarchiver ezentúl jogosult lesz olvasni ezt a mappátkülön engedélykérés nélkül.";
 
 /* Panel OK button title when searching for more archive parts */
 "Search" = "Keresés";

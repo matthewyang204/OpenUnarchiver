@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'The OpenUnarchiver' target in the 'The OpenUnarchiver' project
+//
+
+#ifdef __OBJC__
+#include <Cocoa/Cocoa.h>
+#endif

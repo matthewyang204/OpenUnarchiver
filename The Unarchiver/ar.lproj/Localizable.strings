@@ -1,4 +1,4 @@
-﻿/* Status text for queued multi-part archives */
+/* Status text for queued multi-part archives */
 "%@ (+%d more)" = "%1$@ (+%2$d أخرى)";
 
 /* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
@@ -31,7 +31,7 @@
 /* Panel title when choosing archives to extract */
 "Select files to unarchive" = "حدد ملفات لاستخراج محتواها";
 
-/* Error message for files not extractable by The Unarchiver */
+/* Error message for files not extractable by The OpenUnarchiver */
 "The contents of the file \"%@\" can not be extracted with this program." = "لا يمكن استخراج محتوى الملف \"%@\" بهذا البرنامج";
 
 /* Error message when encountering an error while extracting entries */
@@ -47,10 +47,10 @@
 "You need to supply a password to open the archive \"%@\"." = "يجب توفير كلمة المرور لفتح الأرشيف \"%@\".";
 
 /* Title for nagging alert on first startup */
-"Where should The Unarchiver extract archives?" = "إلى أين سيستخرج The Unarchiver محتوى الأرشيف؟";
+"Where should The OpenUnarchiver extract archives?" = "إلى أين سيستخرج The OpenUnarchiver محتوى الأرشيف؟";
 
 /* Content of nagging alert on first startup */
-"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "هل تود استخراج ملفات الأرشيف إلى نفس المجلد الحاوي لها، أم أنك تفضل تحديد مكان المجلد الهدف لكل أرشيف على حدة";
+"Would you like The OpenUnarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "هل تود استخراج ملفات الأرشيف إلى نفس المجلد الحاوي لها، أم أنك تفضل تحديد مكان المجلد الهدف لكل أرشيف على حدة";
 
 /* Button to ask every time in nagging alert on first startup */
 "Ask every time" = "السؤال في كل مرة";
@@ -59,10 +59,10 @@
 "Extract to the same folder" = "استخراج الأرشيف إلى نفس المجلد الحاوي له";
 
 /* Informative text in the file panel shown when trying to gain sandbox access */
-"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "لم يتمكن The Unarchiver من الكتابة في هذا المجلد. قد تحجب تقنية ساند بوكس في نظام التشغيل ماك الوصول للمجلد. انقر على \"استخراج\" لتطلب من ساند بوكس السماح لـ The Unarchiver بالكتابة فيه. وسيتم حفظ هذا الإذن ولن يحتاج The Unarchiver إلى طلبه مجددًا";
+"The OpenUnarchiver does not have permission to write to this folder. To allow The OpenUnarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "لم يتمكن The OpenUnarchiver من الكتابة في هذا المجلد. قد تحجب تقنية ساند بوكس في نظام التشغيل ماك الوصول للمجلد. انقر على \"استخراج\" لتطلب من ساند بوكس السماح لـ The OpenUnarchiver بالكتابة فيه. وسيتم حفظ هذا الإذن ولن يحتاج The OpenUnarchiver إلى طلبه مجددًا";
 
 /* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
-"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." =  "يحتاج تطبيق The Unarchiver للبحث عن الأجزاء الأخرى لهذا الأرشيف، ولكن تقنية ساند بوكس في نظام التشغيل ماك تحجب الوصول للمجلد. لطلب الإذن من تقنية ساند بوكس بالسماح في البحث ضمن هذا المجلد، انقر على \"بحث\". سيتم حفظ هذا الإذن ولن يحتاج The Unarchiver إلى طلبه مجددًا.";
+"The OpenUnarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The OpenUnarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." =  "يحتاج تطبيق The OpenUnarchiver للبحث عن الأجزاء الأخرى لهذا الأرشيف، ولكن تقنية ساند بوكس في نظام التشغيل ماك تحجب الوصول للمجلد. لطلب الإذن من تقنية ساند بوكس بالسماح في البحث ضمن هذا المجلد، انقر على \"بحث\". سيتم حفظ هذا الإذن ولن يحتاج The OpenUnarchiver إلى طلبه مجددًا.";
 
 /* Panel OK button title when searching for more archive parts */
 "Search" = "بحث";

@@ -1,4 +1,4 @@
-﻿/* Status text for queued multi-part archives */
+/* Status text for queued multi-part archives */
 "%@ (+%d more)" = "%1$@（残り +%2$d 項目）";
 
 /* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
@@ -31,7 +31,7 @@
 /* Panel title when choosing archives to extract */
 "Select files to unarchive" = "展開するファイルを選択";
 
-/* Error message for files not extractable by The Unarchiver */
+/* Error message for files not extractable by The OpenUnarchiver */
 "The contents of the file \"%@\" can not be extracted with this program." = "ファイル\"%@\"の内容は、このプログラムでは展開できません。";
 
 /* Error message when encountering an error while extracting entries */
@@ -47,10 +47,10 @@
 "You need to supply a password to open the archive \"%@\"." = "アーカイブ\"%@\"を展開するにはパスワードの入力が必要です。";
 
 /* Title for nagging alert on first startup */
-"Where should The Unarchiver extract archives?" = "The Unarchiver のアーカイブ展開先はどこにしますか？";
+"Where should The OpenUnarchiver extract archives?" = "The OpenUnarchiver のアーカイブ展開先はどこにしますか？";
 
 /* Content of nagging alert on first startup */
-"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "The Unarchiver のアーカイブ展開先をアーカイブファイルと同じフォルダにしますか、それともアーカイブを展開する際に毎回確認しますか？";
+"Would you like The OpenUnarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "The OpenUnarchiver のアーカイブ展開先をアーカイブファイルと同じフォルダにしますか、それともアーカイブを展開する際に毎回確認しますか？";
 
 /* Button to ask every time in nagging alert on first startup */
 "Ask every time" = "毎回確認";
@@ -59,10 +59,10 @@
 "Extract to the same folder" = "同じフォルダに展開";
 
 /* Informative text in the file panel shown when trying to gain sandbox access */
-"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver はこのフォルダに書き込めません。Mac OS X の sandbox によりアクセスがブロックされているものと思われます。The Unarchiver がこのフォルダに書き込めるよう sandbox に許可を申請するには、\"展開\"をクリックしてください。アクセス権は記憶されますので、次回からはこの確認は表示されなくなります。";
+"The OpenUnarchiver does not have permission to write to this folder. To allow The OpenUnarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver はこのフォルダに書き込めません。Mac OS X の sandbox によりアクセスがブロックされているものと思われます。The OpenUnarchiver がこのフォルダに書き込めるよう sandbox に許可を申請するには、\"展開\"をクリックしてください。アクセス権は記憶されますので、次回からはこの確認は表示されなくなります。";
 
 /* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
-"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "このアーカイブのパーツを検索する必要がありますが、Mac OS X の Sandbox により、フォルダへのアクセスが制限されています。The Unarchiver からこのフォルダへのアクセス制限を解除するには、“検索”をクリックしてください。このアクセス権変更は記憶されますので、次回以降はこの確認は表示されません。";
+"The OpenUnarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The OpenUnarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "このアーカイブのパーツを検索する必要がありますが、Mac OS X の Sandbox により、フォルダへのアクセスが制限されています。The OpenUnarchiver からこのフォルダへのアクセス制限を解除するには、“検索”をクリックしてください。このアクセス権変更は記憶されますので、次回以降はこの確認は表示されません。";
 
 /* Panel OK button title when searching for more archive parts */
 "Search" = "検索";

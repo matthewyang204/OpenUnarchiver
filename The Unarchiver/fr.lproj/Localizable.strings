@@ -1,4 +1,4 @@
-﻿/* Status text for queued multi-part archives */
+/* Status text for queued multi-part archives */
 "%@ (+%d more)" = "%1$@ (+%2$d en plus)";
 
 /* Error message string. The first %@ is the file name, the second the archive name, the third is error message */
@@ -31,7 +31,7 @@
 /* Panel title when choosing archives to extract */
 "Select files to unarchive" = "Sélectionner les fichiers à décompresser";
 
-/* Error message for files not extractable by The Unarchiver */
+/* Error message for files not extractable by The OpenUnarchiver */
 "The contents of the file \"%@\" can not be extracted with this program." = "Le contenu du fichier \"%@\" ne peut pas être extrait avec ce programme.";
 
 /* Error message when encountering an error while extracting entries */
@@ -47,10 +47,10 @@
 "You need to supply a password to open the archive \"%@\"." = "Vous devez fournir un mot de passe pour ouvrir l'archive \"%@\".";
 
 /* Title for nagging alert on first startup */
-"Where should The Unarchiver extract archives?" = "Où The Unarchiver doit-il extraire les archives ?";
+"Where should The OpenUnarchiver extract archives?" = "Où The OpenUnarchiver doit-il extraire les archives ?";
 
 /* Content of nagging alert on first startup */
-"Would you like The Unarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Souhaitez-vous que The Unarchiver extraie les archives dans le même dossier que celui de l'archive, ou préférez-vous choisir un dossier de destination pour chaque archive ?";
+"Would you like The OpenUnarchiver to extract archives to the same folder as the archive file, or would you prefer to be asked for a destination folder for every individual archive?" = "Souhaitez-vous que The OpenUnarchiver extraie les archives dans le même dossier que celui de l'archive, ou préférez-vous choisir un dossier de destination pour chaque archive ?";
 
 /* Button to ask every time in nagging alert on first startup */
 "Ask every time" = "Demander tout le temps";
@@ -59,10 +59,10 @@
 "Extract to the same folder" = "Extraire dans le même dossier";
 
 /* Informative text in the file panel shown when trying to gain sandbox access */
-"The Unarchiver does not have permission to write to this folder. To allow The Unarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver ne peut pas écrire dans ce dossier, le système de bac à sable de Mac OS X pouvant en bloquer l'accès. Afin d'autoriser The Unarchiver à écrire dans ce dossier, cliquez simplement sur \"Extraire\". Cette permission sera mémorisée et The Unarchiver ne vous la demandera plus.";
+"The OpenUnarchiver does not have permission to write to this folder. To allow The OpenUnarchiver to write to this folder, simply click \"Extract\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver ne peut pas écrire dans ce dossier, le système de bac à sable de Mac OS X pouvant en bloquer l'accès. Afin d'autoriser The OpenUnarchiver à écrire dans ce dossier, cliquez simplement sur \"Extraire\". Cette permission sera mémorisée et The OpenUnarchiver ne vous la demandera plus.";
 
 /* Informative text in the file panel shown when trying to gain sandbox access for multi-part archives */
-"The Unarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The Unarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The Unarchiver will not need to ask for it again." = "The Unarchiver a besoin de rechercher les autres parties de cette archive, mais le système de bac à sable de Mac OS X bloque l'accès au dossier. Afin d'autoriser The Unarchiver à rechercher dans ce dossier, cliquez simplement sur \"Rechercher\". Cette permission sera mémorisée et The Unarchiver ne vous la demandera plus.";
+"The OpenUnarchiver needs to search for more parts of this archive, but does not have permission to read the folder. To allow The OpenUnarchiver to search in this folder, simply click \"Search\". This permission will be remembered for this folder, and The OpenUnarchiver will not need to ask for it again." = "The OpenUnarchiver a besoin de rechercher les autres parties de cette archive, mais le système de bac à sable de Mac OS X bloque l'accès au dossier. Afin d'autoriser The OpenUnarchiver à rechercher dans ce dossier, cliquez simplement sur \"Rechercher\". Cette permission sera mémorisée et The OpenUnarchiver ne vous la demandera plus.";
 
 /* Panel OK button title when searching for more archive parts */
 "Search" = "Rechercher";
