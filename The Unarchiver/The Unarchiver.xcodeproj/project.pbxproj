@@ -1259,6 +1259,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthewyang.theunarchiver;
 				PRODUCT_NAME = "The OpenUnarchiver";
 				PROVISIONING_PROFILE = "";
@@ -1290,6 +1291,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.matthewyang.theunarchiver;
 				PRODUCT_NAME = "The OpenUnarchiver";
 				PROVISIONING_PROFILE = "";
