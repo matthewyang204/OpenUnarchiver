@@ -1,4 +1,4 @@
-![Icon](http://wakaba.c3.cx/images/unarchiver_icon.png)
+![Icon](https://github.com/matthewyang204/OpenUnarchiver/blob/d16a1022f0caff84bdc4d268abe9aaa56c64c4b0/icons/unarchiver.png)
 
 # The OpenUnarchiver is an Objective-C application for uncompressing archive files.
 
